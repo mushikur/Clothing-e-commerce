@@ -1,0 +1,17 @@
+import { z } from 'zod'
+import { httpUrl } from '../../utils/http-url.js'
+const id = z.string().regex(/^[a-f\d]{24}$/i)
+const providerId = z.enum(['steadfast', 'pathao', 'redx'])
+const envelope = (body: z.ZodTypeAny, params: z.ZodTypeAny = z.object({}), query: z.ZodTypeAny = z.object({})) => z.object({ body, params, query }).strict()
+const fields = z.record(z.string().trim().max(500)).refine((value) => Object.keys(value).length <= 20, 'Use at most 20 credential fields')
+const location = z.object({ locationId: z.string().trim().max(100).optional(), name: z.string().trim().max(120).optional(), address: z.string().trim().max(500).optional(), city: z.string().trim().max(100).optional(), phone: z.string().trim().max(32).optional() }).strict()
+const merchant = z.object({ storeName: z.string().trim().max(120).optional(), contactName: z.string().trim().max(100).optional(), phone: z.string().trim().max(32).optional() }).strict()
+export const courierEmptySchema = envelope(z.object({}).strict(), z.object({}).strict(), z.object({}).strict())
+export const courierProviderParamsSchema = envelope(z.object({}).strict(), z.object({ providerId }).strict())
+export const courierConfigSchema = envelope(z.object({ enabled: z.boolean(), mode: z.enum(['sandbox', 'live']), credentials: fields.optional(), clearCredentials: z.boolean().optional(), merchant, pickup: location }).strict(), z.object({ providerId }).strict())
+export const courierDefaultSchema = envelope(z.object({ providerId: providerId.nullable() }).strict())
+export const courierTrackingSchema = envelope(z.object({ enabled: z.boolean() }).strict())
+export const courierLogSchema = envelope(z.object({}).strict(), z.object({}).strict(), z.object({ page: z.coerce.number().int().min(1).default(1), limit: z.coerce.number().int().min(1).max(100).default(25) }).strict())
+export const courierShipmentSchema = envelope(z.object({ providerId }).strict(), z.object({ orderId: id }).strict())
+export const demoShipmentSchema = envelope(z.object({}).strict(), z.object({ orderId: id }).strict())
+export const manualReturnShipmentSchema = envelope(z.object({ provider: z.string().trim().min(2).max(80), status: z.enum(['booked', 'picked_up', 'in_transit', 'returned', 'inspection', 'complete']), trackingNumber: z.string().trim().max(120).optional(), trackingUrl: httpUrl().optional(), note: z.string().trim().max(500).optional() }).strict(), z.object({ orderId: id }).strict())

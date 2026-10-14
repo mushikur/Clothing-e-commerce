@@ -1,0 +1,73 @@
+:root {
+  color-scheme: light;
+  --color-primary: #1c1c1a;
+  --color-primary-contrast: #f5f3ef;
+  --color-secondary: #716e67;
+  --color-accent: #9c5742;
+  --color-background: #f5f3ef;
+  --color-surface: #fffefa;
+  --color-surface-muted: #ebe8e1;
+  --color-text: #22211f;
+  --color-text-muted: #706c66;
+  --color-border: #dedbd4;
+  --color-success: #41634c;
+  --color-warning: #91601f;
+  --color-error: #a4423c;
+  --color-sale: #b24b3e;
+  --color-overlay: rgb(24 23 21 / 50%);
+
+  --font-display: "Iowan Old Style", "Baskerville", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-body: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  --text-display: clamp(3.25rem, 7vw, 6.7rem);
+  --text-h1: clamp(2.65rem, 5vw, 4.7rem);
+  --text-h2: clamp(2rem, 3.2vw, 3.2rem);
+  --text-h3: clamp(1.35rem, 2vw, 1.8rem);
+  --text-body: 0.96rem;
+  --text-small: 0.84rem;
+  --text-caption: 0.7rem;
+  --leading-display: 0.98;
+  --leading-heading: 1.12;
+  --leading-body: 1.6;
+
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-section: clamp(4.5rem, 9vw, 9rem);
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.9rem;
+  --radius-pill: 999px;
+  --shadow-soft: 0 18px 50px rgb(25 22 18 / 10%);
+  --shadow-popover: 0 12px 32px rgb(25 22 18 / 12%);
+  --content-width: 1440px;
+  --header-height: 76px;
+  --motion-fast: 150ms;
+  --motion-base: 240ms;
+  --motion-slow: 420ms;
+  --ease-out: cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+/* Apply tenant tokens with data-theme or inline CSS custom properties. */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-primary: #f5f3ef;
+  --color-primary-contrast: #1c1c1a;
+  --color-secondary: #c4c0b7;
+  --color-background: #1c1c1a;
+  --color-surface: #282724;
+  --color-surface-muted: #34322e;
+  --color-text: #f5f3ef;
+  --color-text-muted: #b4b0a8;
+  --color-border: #48453f;
+}

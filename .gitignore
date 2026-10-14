@@ -1,0 +1,11 @@
+node_modules/
+dist/
+backend/node_modules/
+backend/dist/
+backend/.env
+.env.local
+backend/uploads/
+backend/coverage/
+backend/.demo-mongo-data/
+backend/.demo-mongo.log
+backend/.qa-media-storage/

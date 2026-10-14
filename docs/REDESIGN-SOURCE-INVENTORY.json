@@ -1,0 +1,2689 @@
+[
+  {
+    "file": "src/App.tsx",
+    "lines": 29,
+    "bytes": 1886,
+    "tables": 0,
+    "imports": [
+      "react",
+      "./components/ExperienceBoundary",
+      "./components/Experience",
+      "./features/storefront/StorefrontConfig",
+      "./i18n/I18nProvider",
+      "./lib/motion",
+      "./components/CartFlight"
+    ]
+  },
+  {
+    "file": "src/assets/fashion-bag.json",
+    "lines": 1,
+    "bytes": 1982,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/components/BusinessInvoice.tsx",
+    "lines": 54,
+    "bytes": 8532,
+    "tables": 1,
+    "imports": [
+      "react",
+      "react-dom",
+      "../i18n/I18nProvider",
+      "./Icon",
+      "./ThemeContrast"
+    ]
+  },
+  {
+    "file": "src/components/CartFlight.tsx",
+    "lines": 26,
+    "bytes": 1560,
+    "tables": 0,
+    "imports": [
+      "react",
+      "react-dom",
+      "../lib/safe-url"
+    ]
+  },
+  {
+    "file": "src/components/commerce.tsx",
+    "lines": 98,
+    "bytes": 14865,
+    "tables": 0,
+    "imports": [
+      "react",
+      "react",
+      "./Icon",
+      "./ui",
+      "../lib/images",
+      "../i18n/I18nProvider"
+    ]
+  },
+  {
+    "file": "src/components/Experience.tsx",
+    "lines": 43,
+    "bytes": 3115,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../i18n/I18nProvider",
+      "./Icon",
+      "./ui"
+    ]
+  },
+  {
+    "file": "src/components/ExperienceBoundary.tsx",
+    "lines": 19,
+    "bytes": 996,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../i18n/I18nProvider",
+      "./ui"
+    ]
+  },
+  {
+    "file": "src/components/FashionBagAnimation.tsx",
+    "lines": 54,
+    "bytes": 2525,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../assets/fashion-bag.json",
+      "../lib/motion"
+    ]
+  },
+  {
+    "file": "src/components/Icon.tsx",
+    "lines": 34,
+    "bytes": 2476,
+    "tables": 0,
+    "imports": [
+      "react"
+    ]
+  },
+  {
+    "file": "src/components/invoice.css",
+    "lines": 70,
+    "bytes": 9675,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/components/InvoicePrintButton.tsx",
+    "lines": 3,
+    "bytes": 175,
+    "tables": 0,
+    "imports": [
+      "./BusinessInvoice",
+      "./BusinessInvoice"
+    ]
+  },
+  {
+    "file": "src/components/QuantityControl.tsx",
+    "lines": 7,
+    "bytes": 1004,
+    "tables": 0,
+    "imports": [
+      "../i18n/I18nProvider",
+      "./Icon"
+    ]
+  },
+  {
+    "file": "src/components/ThemeContrast.tsx",
+    "lines": 11,
+    "bytes": 1350,
+    "tables": 0,
+    "imports": [
+      "../i18n/interface-text"
+    ]
+  },
+  {
+    "file": "src/components/ui.tsx",
+    "lines": 104,
+    "bytes": 10323,
+    "tables": 0,
+    "imports": [
+      "react",
+      "./Icon",
+      "../i18n/I18nProvider",
+      "react-dom"
+    ]
+  },
+  {
+    "file": "src/components/WorkspaceUI.tsx",
+    "lines": 37,
+    "bytes": 3642,
+    "tables": 1,
+    "imports": [
+      "react",
+      "../i18n/I18nProvider",
+      "./Icon",
+      "../i18n/interface-text"
+    ]
+  },
+  {
+    "file": "src/config/business.ts",
+    "lines": 7,
+    "bytes": 289,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/account/account.css",
+    "lines": 86,
+    "bytes": 12150,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/account/AccountExperience.tsx",
+    "lines": 151,
+    "bytes": 24326,
+    "tables": 0,
+    "imports": [
+      "../../i18n/interface-text",
+      "react",
+      "../../lib/session",
+      "../../i18n/I18nProvider",
+      "../storefront/StorefrontConfig",
+      "../../components/ui",
+      "../../components/Icon",
+      "../../components/WorkspaceUI"
+    ]
+  },
+  {
+    "file": "src/features/account/OrderExperience.tsx",
+    "lines": 123,
+    "bytes": 21958,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/Experience",
+      "../../components/ui",
+      "../../lib/session",
+      "../../i18n/I18nProvider",
+      "../../components/InvoicePrintButton",
+      "../storefront/StorefrontConfig"
+    ]
+  },
+  {
+    "file": "src/features/account/orders.css",
+    "lines": 18,
+    "bytes": 3922,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/account/WishlistExperience.tsx",
+    "lines": 88,
+    "bytes": 6840,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/commerce",
+      "../../components/FashionBagAnimation",
+      "../../components/Experience",
+      "../../components/ui",
+      "../../lib/shopping",
+      "../../lib/session",
+      "../catalog/ProductCatalog",
+      "../../i18n/I18nProvider"
+    ]
+  },
+  {
+    "file": "src/features/admin/admin-couriers.css",
+    "lines": 3,
+    "bytes": 4555,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/admin/admin-customizer.css",
+    "lines": 77,
+    "bytes": 11201,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/admin/admin-dashboard.css",
+    "lines": 20,
+    "bytes": 12310,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/admin/admin-delivery.css",
+    "lines": 2,
+    "bytes": 3035,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/admin/admin-media.css",
+    "lines": 50,
+    "bytes": 7849,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/admin/admin-navigation.ts",
+    "lines": 9,
+    "bytes": 226,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/admin/admin-orders.css",
+    "lines": 14,
+    "bytes": 5673,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/admin/admin-products.css",
+    "lines": 21,
+    "bytes": 7118,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/admin/admin-shell.css",
+    "lines": 14,
+    "bytes": 5430,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/admin/AdminContentExperience.tsx",
+    "lines": 98,
+    "bytes": 13703,
+    "tables": 0,
+    "imports": [
+      "../../components/WorkspaceUI",
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "../../config/business",
+      "../../lib/session",
+      "./admin-navigation"
+    ]
+  },
+  {
+    "file": "src/features/admin/AdminCourierExperience.tsx",
+    "lines": 80,
+    "bytes": 14606,
+    "tables": 1,
+    "imports": [
+      "../../components/WorkspaceUI",
+      "../../components/WorkspaceUI",
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "../../lib/session"
+    ]
+  },
+  {
+    "file": "src/features/admin/AdminDashboardExperience.tsx",
+    "lines": 163,
+    "bytes": 44940,
+    "tables": 5,
+    "imports": [
+      "../../components/WorkspaceUI",
+      "../../components/WorkspaceUI",
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "../../config/business",
+      "../../lib/session",
+      "../../components/WorkspaceUI"
+    ]
+  },
+  {
+    "file": "src/features/admin/AdminDeliveryExperience.tsx",
+    "lines": 60,
+    "bytes": 24396,
+    "tables": 2,
+    "imports": [
+      "../../components/WorkspaceUI",
+      "../../components/WorkspaceUI",
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "../../lib/session",
+      "../../i18n/I18nProvider"
+    ]
+  },
+  {
+    "file": "src/features/admin/AdminMediaExperience.tsx",
+    "lines": 160,
+    "bytes": 20868,
+    "tables": 0,
+    "imports": [
+      "../../components/WorkspaceUI",
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "../../lib/session"
+    ]
+  },
+  {
+    "file": "src/features/admin/AdminOrdersExperience.tsx",
+    "lines": 158,
+    "bytes": 30945,
+    "tables": 0,
+    "imports": [
+      "../../components/WorkspaceUI",
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "../../lib/session",
+      "../../i18n/I18nProvider",
+      "../../components/WorkspaceUI",
+      "../../components/InvoicePrintButton"
+    ]
+  },
+  {
+    "file": "src/features/admin/AdminPageBuilderExperience.tsx",
+    "lines": 104,
+    "bytes": 21374,
+    "tables": 0,
+    "imports": [
+      "../../components/WorkspaceUI",
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "../../lib/session"
+    ]
+  },
+  {
+    "file": "src/features/admin/AdminProductsExperience.tsx",
+    "lines": 223,
+    "bytes": 37519,
+    "tables": 2,
+    "imports": [
+      "../../components/WorkspaceUI",
+      "../../components/WorkspaceUI",
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "../../config/business",
+      "../../lib/session"
+    ]
+  },
+  {
+    "file": "src/features/admin/AdminShell.tsx",
+    "lines": 169,
+    "bytes": 12823,
+    "tables": 0,
+    "imports": [
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "../../lib/session",
+      "../../i18n/I18nProvider",
+      "../../components/Icon",
+      "../../components/WorkspaceUI",
+      "../storefront/StorefrontConfig",
+      "../../lib/seo"
+    ]
+  },
+  {
+    "file": "src/features/admin/AdminThemeExperience.tsx",
+    "lines": 106,
+    "bytes": 17616,
+    "tables": 0,
+    "imports": [
+      "../../components/ThemeContrast",
+      "../../components/WorkspaceUI",
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "../../config/business",
+      "../../lib/session",
+      "./admin-navigation"
+    ]
+  },
+  {
+    "file": "src/features/admin/page-builder.css",
+    "lines": 2,
+    "bytes": 4086,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/cart/cart.css",
+    "lines": 34,
+    "bytes": 3693,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/cart/CartExperience.tsx",
+    "lines": 156,
+    "bytes": 13240,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/ui",
+      "../../components/FashionBagAnimation",
+      "../storefront/StorefrontConfig",
+      "../../config/business",
+      "../../lib/session",
+      "../../lib/guest-cart",
+      "../../components/Experience",
+      "../../i18n/I18nProvider",
+      "../../components/QuantityControl"
+    ]
+  },
+  {
+    "file": "src/features/cart/checkout.css",
+    "lines": 126,
+    "bytes": 16429,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/cart/CheckoutExperience.tsx",
+    "lines": 364,
+    "bytes": 44856,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/ui",
+      "../../config/business",
+      "../../lib/guest-cart",
+      "../../lib/session",
+      "../../i18n/I18nProvider",
+      "../../components/InvoicePrintButton",
+      "../storefront/StorefrontConfig",
+      "../../components/Experience"
+    ]
+  },
+  {
+    "file": "src/features/cart/MiniCartContents.tsx",
+    "lines": 26,
+    "bytes": 2516,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../lib/session",
+      "../../lib/guest-cart",
+      "../../components/Experience",
+      "../../i18n/I18nProvider",
+      "../../lib/safe-url"
+    ]
+  },
+  {
+    "file": "src/features/catalog/catalog.css",
+    "lines": 5,
+    "bytes": 3106,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/catalog/product-detail.css",
+    "lines": 6,
+    "bytes": 4808,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/catalog/ProductCatalog.tsx",
+    "lines": 210,
+    "bytes": 20212,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/commerce",
+      "../../config/business",
+      "../../lib/session",
+      "../../lib/shopping",
+      "../../components/ui",
+      "../../i18n/I18nProvider"
+    ]
+  },
+  {
+    "file": "src/features/catalog/ProductDetailExperience.tsx",
+    "lines": 136,
+    "bytes": 15577,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/commerce",
+      "../../components/ui",
+      "../storefront/StorefrontConfig",
+      "../../lib/session",
+      "../../lib/shopping",
+      "./ProductReviews",
+      "./ProductCatalog",
+      "../../lib/seo",
+      "../storefront/CustomerSite",
+      "../../components/Experience",
+      "../../lib/guest-cart",
+      "../../i18n/I18nProvider"
+    ]
+  },
+  {
+    "file": "src/features/catalog/ProductReviews.tsx",
+    "lines": 27,
+    "bytes": 2556,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/ui",
+      "../../i18n/I18nProvider"
+    ]
+  },
+  {
+    "file": "src/features/catalog/RelatedProducts.tsx",
+    "lines": 27,
+    "bytes": 4325,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/commerce",
+      "../../components/Experience",
+      "../../components/ui",
+      "../../i18n/I18nProvider",
+      "../../lib/shopping",
+      "../../lib/session",
+      "./ProductCatalog"
+    ]
+  },
+  {
+    "file": "src/features/storefront/brand-page.css",
+    "lines": 3,
+    "bytes": 2495,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/storefront/BrandPage.tsx",
+    "lines": 60,
+    "bytes": 9169,
+    "tables": 0,
+    "imports": [
+      "../../i18n/interface-text",
+      "react",
+      "../../components/ui",
+      "./StorefrontConfig",
+      "../../lib/seo",
+      "../../i18n/I18nProvider"
+    ]
+  },
+  {
+    "file": "src/features/storefront/customer-site.css",
+    "lines": 9,
+    "bytes": 4633,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/storefront/CustomerSite.tsx",
+    "lines": 152,
+    "bytes": 18909,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/Icon",
+      "../../components/ui",
+      "./StorefrontConfig",
+      "../../lib/session",
+      "../../lib/guest-cart",
+      "../../lib/safe-url",
+      "../../components/Experience",
+      "../../i18n/I18nProvider",
+      "../../lib/motion"
+    ]
+  },
+  {
+    "file": "src/features/storefront/home.css",
+    "lines": 4,
+    "bytes": 6372,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/storefront/HomeExperience.tsx",
+    "lines": 82,
+    "bytes": 10630,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/Icon",
+      "../../components/ui",
+      "./StorefrontConfig",
+      "./SectionRenderer",
+      "../../i18n/I18nProvider",
+      "../../components/Experience"
+    ]
+  },
+  {
+    "file": "src/features/storefront/LandingPageExperience.tsx",
+    "lines": 36,
+    "bytes": 3321,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../components/ui",
+      "./SectionRenderer",
+      "./StorefrontConfig",
+      "../../lib/seo",
+      "../../i18n/I18nProvider"
+    ]
+  },
+  {
+    "file": "src/features/storefront/SectionRenderer.tsx",
+    "lines": 92,
+    "bytes": 10466,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../lib/safe-url",
+      "../../lib/images",
+      "../../components/commerce",
+      "../catalog/ProductCatalog",
+      "../../lib/shopping",
+      "../../lib/session",
+      "../../components/ui",
+      "../../components/Experience",
+      "../../i18n/I18nProvider"
+    ]
+  },
+  {
+    "file": "src/features/storefront/sections.css",
+    "lines": 2,
+    "bytes": 3865,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/features/storefront/StorefrontConfig.tsx",
+    "lines": 91,
+    "bytes": 7828,
+    "tables": 0,
+    "imports": [
+      "react",
+      "../../config/business",
+      "../../lib/seo",
+      "../../i18n/I18nProvider"
+    ]
+  },
+  {
+    "file": "src/i18n/delight.ts",
+    "lines": 9,
+    "bytes": 7079,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/i18n/I18nProvider.tsx",
+    "lines": 65,
+    "bytes": 3922,
+    "tables": 0,
+    "imports": [
+      "react",
+      "./translations",
+      "./delight",
+      "./order-ui",
+      "./invoice"
+    ]
+  },
+  {
+    "file": "src/i18n/interface-text.ts",
+    "lines": 25,
+    "bytes": 47151,
+    "tables": 0,
+    "imports": [
+      "./translations",
+      "react",
+      "./I18nProvider"
+    ]
+  },
+  {
+    "file": "src/i18n/invoice.ts",
+    "lines": 5,
+    "bytes": 3918,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/i18n/order-ui.ts",
+    "lines": 5,
+    "bytes": 3412,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/i18n/translations.ts",
+    "lines": 37,
+    "bytes": 32563,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/lib/guest-cart.ts",
+    "lines": 46,
+    "bytes": 2861,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/lib/images.ts",
+    "lines": 4,
+    "bytes": 192,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/lib/motion.ts",
+    "lines": 25,
+    "bytes": 1310,
+    "tables": 0,
+    "imports": [
+      "react"
+    ]
+  },
+  {
+    "file": "src/lib/performance.ts",
+    "lines": 46,
+    "bytes": 2134,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/lib/safe-url.ts",
+    "lines": 15,
+    "bytes": 492,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/lib/seo.ts",
+    "lines": 46,
+    "bytes": 2393,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/lib/session.ts",
+    "lines": 55,
+    "bytes": 2474,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/lib/shopping.ts",
+    "lines": 33,
+    "bytes": 2498,
+    "tables": 0,
+    "imports": [
+      "../components/commerce",
+      "./guest-cart",
+      "./session"
+    ]
+  },
+  {
+    "file": "src/main.tsx",
+    "lines": 21,
+    "bytes": 570,
+    "tables": 0,
+    "imports": [
+      "react",
+      "react-dom/client",
+      "./App"
+    ]
+  },
+  {
+    "file": "src/styles/components.css",
+    "lines": 140,
+    "bytes": 21232,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/styles/design-system.css",
+    "lines": 218,
+    "bytes": 28691,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/styles/global.css",
+    "lines": 65,
+    "bytes": 4612,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/styles/motion.css",
+    "lines": 45,
+    "bytes": 4051,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/styles/premium.css",
+    "lines": 238,
+    "bytes": 22036,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/styles/storefront.css",
+    "lines": 32,
+    "bytes": 15965,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/styles/tokens.css",
+    "lines": 74,
+    "bytes": 2043,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/types/lottie-light.d.ts",
+    "lines": 14,
+    "bytes": 388,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "src/vite-env.d.ts",
+    "lines": 11,
+    "bytes": 317,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "backend/src/app.ts",
+    "lines": 65,
+    "bytes": 3070,
+    "tables": 0,
+    "imports": [
+      "express",
+      "cors",
+      "helmet",
+      "cookie-parser",
+      "pino-http",
+      "./utils/app-error.js",
+      "./config/env.js",
+      "./utils/logger.js",
+      "./middleware/request-context.js",
+      "./middleware/rate-limits.js",
+      "./middleware/not-found.js",
+      "./middleware/error-handler.js",
+      "./routes/index.js",
+      "./modules/seo/seo.routes.js",
+      "./modules/media/storage-provider.js"
+    ]
+  },
+  {
+    "file": "backend/src/config/database.ts",
+    "lines": 14,
+    "bytes": 484,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./env.js",
+      "../utils/logger.js"
+    ]
+  },
+  {
+    "file": "backend/src/config/env.ts",
+    "lines": 93,
+    "bytes": 6144,
+    "tables": 0,
+    "imports": [
+      "node:crypto",
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/middleware/authenticate.ts",
+    "lines": 32,
+    "bytes": 1814,
+    "tables": 0,
+    "imports": [
+      "express",
+      "jsonwebtoken",
+      "../config/env.js",
+      "../utils/app-error.js",
+      "../models/User.js",
+      "../utils/async-handler.js"
+    ]
+  },
+  {
+    "file": "backend/src/middleware/authorize.ts",
+    "lines": 12,
+    "bytes": 579,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../utils/app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/middleware/error-handler.ts",
+    "lines": 34,
+    "bytes": 2849,
+    "tables": 0,
+    "imports": [
+      "express",
+      "mongoose",
+      "jsonwebtoken",
+      "zod",
+      "../utils/app-error.js",
+      "../utils/logger.js",
+      "../config/env.js"
+    ]
+  },
+  {
+    "file": "backend/src/middleware/not-found.ts",
+    "lines": 5,
+    "bytes": 263,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../utils/app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/middleware/optional-authenticate.ts",
+    "lines": 8,
+    "bytes": 277,
+    "tables": 0,
+    "imports": [
+      "express",
+      "./authenticate.js"
+    ]
+  },
+  {
+    "file": "backend/src/middleware/rate-limits.ts",
+    "lines": 20,
+    "bytes": 687,
+    "tables": 0,
+    "imports": [
+      "express-rate-limit",
+      "../config/env.js"
+    ]
+  },
+  {
+    "file": "backend/src/middleware/request-context.ts",
+    "lines": 9,
+    "bytes": 267,
+    "tables": 0,
+    "imports": [
+      "node:crypto",
+      "express"
+    ]
+  },
+  {
+    "file": "backend/src/middleware/require-business.ts",
+    "lines": 24,
+    "bytes": 1228,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../models/Business.js",
+      "../config/env.js",
+      "../utils/app-error.js",
+      "../utils/async-handler.js"
+    ]
+  },
+  {
+    "file": "backend/src/middleware/validate.ts",
+    "lines": 16,
+    "bytes": 628,
+    "tables": 0,
+    "imports": [
+      "express",
+      "zod",
+      "../utils/app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/middleware/verify-browser-origin.ts",
+    "lines": 21,
+    "bytes": 1374,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../config/env.js",
+      "../utils/app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/AccountToken.ts",
+    "lines": 19,
+    "bytes": 800,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Address.ts",
+    "lines": 32,
+    "bytes": 1900,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Business.ts",
+    "lines": 39,
+    "bytes": 1909,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Cart.ts",
+    "lines": 16,
+    "bytes": 765,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Category.ts",
+    "lines": 20,
+    "bytes": 1369,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/common.ts",
+    "lines": 14,
+    "bytes": 793,
+    "tables": 0,
+    "imports": [
+      "mongoose"
+    ]
+  },
+  {
+    "file": "backend/src/models/ContentPage.ts",
+    "lines": 22,
+    "bytes": 2149,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Coupon.ts",
+    "lines": 27,
+    "bytes": 1674,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/CourierApiLog.ts",
+    "lines": 17,
+    "bytes": 849,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/CourierConfiguration.ts",
+    "lines": 24,
+    "bytes": 1672,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/DeliveryLocation.ts",
+    "lines": 22,
+    "bytes": 1204,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/DeliveryRule.ts",
+    "lines": 31,
+    "bytes": 1909,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/HomepageSection.ts",
+    "lines": 52,
+    "bytes": 2680,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/index.ts",
+    "lines": 34,
+    "bytes": 1529,
+    "tables": 0,
+    "imports": [
+      "./AccountToken.js",
+      "./Address.js",
+      "./Business.js",
+      "./Cart.js",
+      "./Category.js",
+      "./Coupon.js",
+      "./CourierApiLog.js",
+      "./CourierConfiguration.js",
+      "./ContentPage.js",
+      "./HomepageSection.js",
+      "./Inventory.js",
+      "./InventoryTransaction.js",
+      "./LandingPage.js",
+      "./MediaAsset.js",
+      "./MediaOptimizationJob.js",
+      "./Notification.js",
+      "./Order.js",
+      "./OrderItem.js",
+      "./Payment.js",
+      "./Product.js",
+      "./ProductVariant.js",
+      "./ProductViewDaily.js",
+      "./Promotion.js",
+      "./RefreshSession.js",
+      "./Review.js",
+      "./Shipment.js",
+      "./Subcategory.js",
+      "./Theme.js",
+      "./User.js",
+      "./WebsiteSettings.js",
+      "./DeliveryRule.js",
+      "./DeliveryLocation.js",
+      "./Wishlist.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Inventory.ts",
+    "lines": 19,
+    "bytes": 1123,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/InventoryTransaction.ts",
+    "lines": 23,
+    "bytes": 1658,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/LandingPage.ts",
+    "lines": 19,
+    "bytes": 1456,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/MediaAsset.ts",
+    "lines": 42,
+    "bytes": 2422,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/MediaOptimizationJob.ts",
+    "lines": 26,
+    "bytes": 1224,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Notification.ts",
+    "lines": 24,
+    "bytes": 1172,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Order.ts",
+    "lines": 65,
+    "bytes": 4578,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/OrderItem.ts",
+    "lines": 30,
+    "bytes": 1878,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Payment.ts",
+    "lines": 34,
+    "bytes": 1945,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Product.ts",
+    "lines": 45,
+    "bytes": 3971,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/ProductVariant.ts",
+    "lines": 31,
+    "bytes": 2242,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/ProductViewDaily.ts",
+    "lines": 15,
+    "bytes": 678,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Promotion.ts",
+    "lines": 26,
+    "bytes": 1732,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/RefreshSession.ts",
+    "lines": 21,
+    "bytes": 904,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Review.ts",
+    "lines": 22,
+    "bytes": 1263,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Shipment.ts",
+    "lines": 30,
+    "bytes": 2450,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Subcategory.ts",
+    "lines": 20,
+    "bytes": 1226,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Theme.ts",
+    "lines": 41,
+    "bytes": 2631,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/User.ts",
+    "lines": 25,
+    "bytes": 1264,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/WebsiteSettings.ts",
+    "lines": 36,
+    "bytes": 2583,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/models/Wishlist.ts",
+    "lines": 13,
+    "bytes": 488,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "./common.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/admin.controller.ts",
+    "lines": 135,
+    "bytes": 17408,
+    "tables": 0,
+    "imports": [
+      "express",
+      "mongoose",
+      "../../models/Inventory.js",
+      "../../models/InventoryTransaction.js",
+      "../../models/Order.js",
+      "../../models/OrderItem.js",
+      "../../models/Product.js",
+      "../../models/ProductVariant.js",
+      "../../models/ProductViewDaily.js",
+      "../../models/User.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js",
+      "../../utils/app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/admin.routes.ts",
+    "lines": 16,
+    "bytes": 1184,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./admin.controller.js",
+      "./admin.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/admin.validators.ts",
+    "lines": 8,
+    "bytes": 1345,
+    "tables": 0,
+    "imports": [
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/customizer.controller.ts",
+    "lines": 82,
+    "bytes": 5218,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "express",
+      "../../models/ContentPage.js",
+      "../../models/Theme.js",
+      "../../models/WebsiteSettings.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/customizer.routes.ts",
+    "lines": 22,
+    "bytes": 1915,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./customizer.controller.js",
+      "./customizer.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/customizer.validators.ts",
+    "lines": 43,
+    "bytes": 4711,
+    "tables": 0,
+    "imports": [
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/page-builder.controller.ts",
+    "lines": 98,
+    "bytes": 6688,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../models/Category.js",
+      "../../models/HomepageSection.js",
+      "../../models/LandingPage.js",
+      "../../models/Product.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/page-builder.routes.ts",
+    "lines": 23,
+    "bytes": 2065,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./page-builder.controller.js",
+      "./page-builder.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/page-builder.validators.ts",
+    "lines": 44,
+    "bytes": 6427,
+    "tables": 0,
+    "imports": [
+      "zod",
+      "../../utils/http-url.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/promotions.controller.ts",
+    "lines": 42,
+    "bytes": 2914,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../models/Coupon.js",
+      "../../models/Product.js",
+      "../../models/Promotion.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/promotions.routes.ts",
+    "lines": 14,
+    "bytes": 1208,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./promotions.controller.js",
+      "./promotions.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/promotions.validators.ts",
+    "lines": 10,
+    "bytes": 2151,
+    "tables": 0,
+    "imports": [
+      "zod",
+      "../../utils/http-url.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/settings.controller.ts",
+    "lines": 20,
+    "bytes": 1390,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../models/WebsiteSettings.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/admin/settings.validators.ts",
+    "lines": 13,
+    "bytes": 1293,
+    "tables": 0,
+    "imports": [
+      "zod",
+      "../../utils/http-url.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/auth/auth.controller.ts",
+    "lines": 74,
+    "bytes": 4430,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../config/env.js",
+      "../../models/User.js",
+      "../../utils/app-error.js",
+      "../../utils/api-response.js",
+      "../../utils/async-handler.js",
+      "./auth.service.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/auth/auth.routes.ts",
+    "lines": 23,
+    "bytes": 1856,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "../../middleware/rate-limits.js",
+      "../../middleware/verify-browser-origin.js",
+      "./auth.validators.js",
+      "./auth.controller.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/auth/auth.service.ts",
+    "lines": 155,
+    "bytes": 10696,
+    "tables": 0,
+    "imports": [
+      "node:crypto",
+      "bcryptjs",
+      "jsonwebtoken",
+      "express",
+      "../../config/env.js",
+      "../../models/AccountToken.js",
+      "../../models/RefreshSession.js",
+      "../../models/User.js",
+      "../../utils/app-error.js",
+      "../../utils/security.js",
+      "../../utils/mailer.js",
+      "../../utils/logger.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/auth/auth.validators.ts",
+    "lines": 20,
+    "bytes": 1181,
+    "tables": 0,
+    "imports": [
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/modules/cart/cart.controller.ts",
+    "lines": 96,
+    "bytes": 7009,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "../../models/Cart.js",
+      "../../models/Inventory.js",
+      "../../models/Product.js",
+      "../../models/ProductVariant.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/cart/cart.routes.ts",
+    "lines": 14,
+    "bytes": 929,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./cart.controller.js",
+      "./cart.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/cart/cart.validators.ts",
+    "lines": 6,
+    "bytes": 569,
+    "tables": 0,
+    "imports": [
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/checkout.controller.ts",
+    "lines": 294,
+    "bytes": 26976,
+    "tables": 0,
+    "imports": [
+      "node:crypto",
+      "mongoose",
+      "express",
+      "../../models/Address.js",
+      "../../models/Business.js",
+      "../../models/Cart.js",
+      "../../models/Coupon.js",
+      "../../models/CourierConfiguration.js",
+      "../../models/Inventory.js",
+      "../../models/InventoryTransaction.js",
+      "../../models/Order.js",
+      "../../models/OrderItem.js",
+      "../../models/Payment.js",
+      "../../models/Product.js",
+      "../../models/ProductVariant.js",
+      "../../models/Shipment.js",
+      "../../models/User.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js",
+      "../payments/payment-providers.js",
+      "../../models/DeliveryRule.js",
+      "./delivery.service.js",
+      "./delivery-locations.service.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/checkout.routes.ts",
+    "lines": 25,
+    "bytes": 1897,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/optional-authenticate.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./checkout.controller.js",
+      "./checkout.validators.js",
+      "../orders/orders.controller.js",
+      "../orders/orders.validators.js",
+      "../users/users.validators.js",
+      "./checkout.controller.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/checkout.validators.ts",
+    "lines": 31,
+    "bytes": 3702,
+    "tables": 0,
+    "imports": [
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/coupons.controller.ts",
+    "lines": 71,
+    "bytes": 4685,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../models/Category.js",
+      "../../models/Coupon.js",
+      "../../models/Product.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/coupons.routes.ts",
+    "lines": 16,
+    "bytes": 1284,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./coupons.controller.js",
+      "./coupons.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/coupons.validators.ts",
+    "lines": 19,
+    "bytes": 2200,
+    "tables": 0,
+    "imports": [
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/delivery-locations.service.ts",
+    "lines": 39,
+    "bytes": 6977,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "../../models/DeliveryLocation.js",
+      "../../utils/app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/delivery.controller.ts",
+    "lines": 109,
+    "bytes": 8756,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../models/DeliveryRule.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js",
+      "./delivery.service.js",
+      "../../models/DeliveryLocation.js",
+      "./delivery-locations.service.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/delivery.routes.ts",
+    "lines": 24,
+    "bytes": 2814,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./delivery.controller.js",
+      "./delivery.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/delivery.service.ts",
+    "lines": 64,
+    "bytes": 6976,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "../../models/DeliveryRule.js",
+      "../../models/CourierConfiguration.js",
+      "../../utils/app-error.js",
+      "./delivery-locations.service.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/checkout/delivery.validators.ts",
+    "lines": 28,
+    "bytes": 4479,
+    "tables": 0,
+    "imports": [
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/modules/couriers/courier-provider.ts",
+    "lines": 30,
+    "bytes": 2130,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "backend/src/modules/couriers/couriers.controller.ts",
+    "lines": 142,
+    "bytes": 13955,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../models/CourierApiLog.js",
+      "../../models/CourierConfiguration.js",
+      "../../models/Order.js",
+      "../../models/Shipment.js",
+      "../../config/env.js",
+      "../../utils/secret-encryption.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js",
+      "./providers.js",
+      "./shipping.service.js",
+      "./courier-provider.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/couriers/couriers.routes.ts",
+    "lines": 17,
+    "bytes": 1539,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./couriers.controller.js",
+      "./couriers.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/couriers/couriers.validators.ts",
+    "lines": 18,
+    "bytes": 2431,
+    "tables": 0,
+    "imports": [
+      "zod",
+      "../../utils/http-url.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/couriers/providers.ts",
+    "lines": 25,
+    "bytes": 2244,
+    "tables": 0,
+    "imports": [
+      "./courier-provider.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/couriers/shipping.service.ts",
+    "lines": 49,
+    "bytes": 4569,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "../../models/CourierApiLog.js",
+      "../../models/CourierConfiguration.js",
+      "../../models/Order.js",
+      "../../models/OrderItem.js",
+      "../../models/Payment.js",
+      "../../models/Shipment.js",
+      "../../utils/app-error.js",
+      "./providers.js",
+      "./courier-provider.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/media/image-optimization.service.ts",
+    "lines": 170,
+    "bytes": 14305,
+    "tables": 0,
+    "imports": [
+      "node:crypto",
+      "mongoose",
+      "node:path",
+      "sharp",
+      "../../models/MediaAsset.js",
+      "../../models/WebsiteSettings.js",
+      "../../utils/app-error.js",
+      "../../config/env.js",
+      "./storage-provider.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/media/media-worker.ts",
+    "lines": 65,
+    "bytes": 2851,
+    "tables": 0,
+    "imports": [
+      "node:crypto",
+      "../../models/MediaAsset.js",
+      "../../models/MediaOptimizationJob.js",
+      "../../utils/logger.js",
+      "./image-optimization.service.js",
+      "./media.service.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/media/media.controller.ts",
+    "lines": 106,
+    "bytes": 7962,
+    "tables": 0,
+    "imports": [
+      "express",
+      "mongoose",
+      "../../models/MediaAsset.js",
+      "../../models/MediaOptimizationJob.js",
+      "../../models/WebsiteSettings.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js",
+      "./image-optimization.service.js",
+      "./media.service.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/media/media.routes.ts",
+    "lines": 40,
+    "bytes": 2861,
+    "tables": 0,
+    "imports": [
+      "express",
+      "multer",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "../../utils/app-error.js",
+      "../../config/env.js",
+      "./media.validators.js",
+      "./media.controller.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/media/media.service.ts",
+    "lines": 76,
+    "bytes": 5480,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "../../models/Category.js",
+      "../../models/ContentPage.js",
+      "../../models/HomepageSection.js",
+      "../../models/LandingPage.js",
+      "../../models/MediaAsset.js",
+      "../../models/Product.js",
+      "../../models/ProductVariant.js",
+      "../../models/Subcategory.js",
+      "../../models/WebsiteSettings.js",
+      "../../utils/app-error.js",
+      "../../models/MediaOptimizationJob.js",
+      "./storage-provider.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/media/media.validators.ts",
+    "lines": 17,
+    "bytes": 2032,
+    "tables": 0,
+    "imports": [
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/modules/media/storage-provider.ts",
+    "lines": 85,
+    "bytes": 4209,
+    "tables": 0,
+    "imports": [
+      "node:fs/promises",
+      "node:crypto",
+      "node:path",
+      "@aws-sdk/client-s3",
+      "../../config/env.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/orders/orders.controller.ts",
+    "lines": 257,
+    "bytes": 23023,
+    "tables": 0,
+    "imports": [
+      "node:crypto",
+      "mongoose",
+      "express",
+      "../../models/Business.js",
+      "../../models/Coupon.js",
+      "../../models/Inventory.js",
+      "../../models/InventoryTransaction.js",
+      "../../models/Order.js",
+      "../../models/OrderItem.js",
+      "../../models/Payment.js",
+      "../../models/Shipment.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js",
+      "../payments/payment-providers.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/orders/orders.routes.ts",
+    "lines": 31,
+    "bytes": 3187,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./orders.controller.js",
+      "./orders.validators.js",
+      "../admin/settings.controller.js",
+      "../admin/settings.validators.js",
+      "../couriers/couriers.controller.js",
+      "../couriers/couriers.validators.js",
+      "../couriers/couriers.controller.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/orders/orders.validators.ts",
+    "lines": 20,
+    "bytes": 3300,
+    "tables": 0,
+    "imports": [
+      "zod",
+      "../../utils/http-url.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/payments/payment-providers.ts",
+    "lines": 43,
+    "bytes": 2602,
+    "tables": 0,
+    "imports": [
+      "../../utils/app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/products/admin-products.controller.ts",
+    "lines": 57,
+    "bytes": 3572,
+    "tables": 0,
+    "imports": [
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js",
+      "../../utils/app-error.js",
+      "./admin-products.service.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/products/admin-products.routes.ts",
+    "lines": 19,
+    "bytes": 1772,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./admin-products.controller.js",
+      "./products.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/products/admin-products.service.ts",
+    "lines": 166,
+    "bytes": 14154,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "../../models/Category.js",
+      "../../models/Inventory.js",
+      "../../models/InventoryTransaction.js",
+      "../../models/Product.js",
+      "../../models/ProductVariant.js",
+      "../../models/Subcategory.js",
+      "../../utils/app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/products/categories.controller.ts",
+    "lines": 65,
+    "bytes": 4543,
+    "tables": 0,
+    "imports": [
+      "../../models/Category.js",
+      "../../models/Subcategory.js",
+      "../../utils/async-handler.js",
+      "../../utils/app-error.js",
+      "../../utils/api-response.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/products/categories.routes.ts",
+    "lines": 22,
+    "bytes": 1696,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/authorize.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./categories.controller.js",
+      "./products.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/products/products.controller.ts",
+    "lines": 55,
+    "bytes": 4120,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js",
+      "./products.service.js",
+      "../../models/Product.js",
+      "../../models/Review.js",
+      "../../utils/app-error.js",
+      "../../models/ProductViewDaily.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/products/products.routes.ts",
+    "lines": 15,
+    "bytes": 968,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./products.controller.js",
+      "./products.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/products/products.service.ts",
+    "lines": 96,
+    "bytes": 8457,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "../../models/Inventory.js",
+      "../../models/Product.js",
+      "../../models/ProductVariant.js",
+      "../../models/OrderItem.js",
+      "../../models/Order.js",
+      "../../utils/app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/products/products.validators.ts",
+    "lines": 58,
+    "bytes": 9995,
+    "tables": 0,
+    "imports": [
+      "zod",
+      "../../utils/http-url.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/seo/seo.controller.ts",
+    "lines": 73,
+    "bytes": 5086,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../models/Category.js",
+      "../../models/ContentPage.js",
+      "../../models/LandingPage.js",
+      "../../models/Product.js",
+      "../../models/WebsiteSettings.js",
+      "../../config/env.js",
+      "../../utils/async-handler.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/seo/seo.routes.ts",
+    "lines": 13,
+    "bytes": 874,
+    "tables": 0,
+    "imports": [
+      "express",
+      "express-rate-limit",
+      "../../middleware/require-business.js",
+      "../../config/env.js",
+      "./seo.controller.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/storefront/storefront.controller.ts",
+    "lines": 76,
+    "bytes": 6286,
+    "tables": 0,
+    "imports": [
+      "express",
+      "mongoose",
+      "../products/products.service.js",
+      "../../models/ContentPage.js",
+      "../../models/Category.js",
+      "../../models/HomepageSection.js",
+      "../../models/LandingPage.js",
+      "../../models/Product.js",
+      "../../models/Theme.js",
+      "../../models/WebsiteSettings.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/storefront/storefront.routes.ts",
+    "lines": 15,
+    "bytes": 1222,
+    "tables": 0,
+    "imports": [
+      "express",
+      "zod",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./storefront.controller.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/users/users.controller.ts",
+    "lines": 173,
+    "bytes": 11744,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../models/Address.js",
+      "mongoose",
+      "../../models/Cart.js",
+      "../../models/CourierConfiguration.js",
+      "../../models/Inventory.js",
+      "../../models/Notification.js",
+      "../../models/Order.js",
+      "../../models/OrderItem.js",
+      "../../models/Payment.js",
+      "../../models/Product.js",
+      "../../models/ProductVariant.js",
+      "../../models/Shipment.js",
+      "../../models/User.js",
+      "../../models/Wishlist.js",
+      "../../utils/app-error.js",
+      "../../utils/async-handler.js",
+      "../../utils/api-response.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/users/users.routes.ts",
+    "lines": 27,
+    "bytes": 2516,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../../middleware/authenticate.js",
+      "../../middleware/require-business.js",
+      "../../middleware/validate.js",
+      "./users.validators.js",
+      "../orders/orders.controller.js",
+      "../orders/orders.validators.js",
+      "./users.controller.js"
+    ]
+  },
+  {
+    "file": "backend/src/modules/users/users.validators.ts",
+    "lines": 18,
+    "bytes": 2231,
+    "tables": 0,
+    "imports": [
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/routes/health.routes.ts",
+    "lines": 12,
+    "bytes": 538,
+    "tables": 0,
+    "imports": [
+      "express",
+      "mongoose",
+      "../utils/api-response.js"
+    ]
+  },
+  {
+    "file": "backend/src/routes/index.ts",
+    "lines": 48,
+    "bytes": 2726,
+    "tables": 0,
+    "imports": [
+      "express",
+      "../modules/auth/auth.routes.js",
+      "../modules/products/products.routes.js",
+      "../modules/users/users.routes.js",
+      "../modules/products/categories.routes.js",
+      "../modules/products/admin-products.routes.js",
+      "../modules/cart/cart.routes.js",
+      "./health.routes.js",
+      "../modules/checkout/checkout.routes.js",
+      "../modules/checkout/coupons.routes.js",
+      "../modules/orders/orders.routes.js",
+      "../modules/admin/admin.routes.js",
+      "../modules/admin/promotions.routes.js",
+      "../modules/admin/customizer.routes.js",
+      "../modules/storefront/storefront.routes.js",
+      "../modules/admin/page-builder.routes.js",
+      "../modules/couriers/couriers.routes.js",
+      "../modules/seo/seo.routes.js",
+      "../modules/media/media.routes.js",
+      "../modules/checkout/delivery.routes.js"
+    ]
+  },
+  {
+    "file": "backend/src/scripts/bilingual-demo.ts",
+    "lines": 137,
+    "bytes": 40825,
+    "tables": 0,
+    "imports": [
+      "mongoose",
+      "../models/Business.js",
+      "../models/Category.js",
+      "../models/ContentPage.js",
+      "../models/HomepageSection.js",
+      "../models/LandingPage.js",
+      "../models/Product.js",
+      "../models/Promotion.js",
+      "../models/Subcategory.js",
+      "../models/WebsiteSettings.js"
+    ]
+  },
+  {
+    "file": "backend/src/scripts/migrate-payment-reference-index.ts",
+    "lines": 25,
+    "bytes": 938,
+    "tables": 0,
+    "imports": [
+      "../config/database.js",
+      "../models/Payment.js"
+    ]
+  },
+  {
+    "file": "backend/src/scripts/seed-business.ts",
+    "lines": 40,
+    "bytes": 2349,
+    "tables": 0,
+    "imports": [
+      "bcryptjs",
+      "mongoose",
+      "../models/Business.js",
+      "../models/User.js",
+      "../utils/logger.js"
+    ]
+  },
+  {
+    "file": "backend/src/scripts/seed-demo.ts",
+    "lines": 425,
+    "bytes": 51138,
+    "tables": 0,
+    "imports": [
+      "bcryptjs",
+      "node:crypto",
+      "mongoose",
+      "node:fs/promises",
+      "node:path",
+      "../models/Address.js",
+      "../models/Business.js",
+      "../models/Cart.js",
+      "../models/Category.js",
+      "../models/ContentPage.js",
+      "../models/Coupon.js",
+      "../models/CourierConfiguration.js",
+      "../models/HomepageSection.js",
+      "../models/Inventory.js",
+      "../models/InventoryTransaction.js",
+      "../models/LandingPage.js",
+      "../models/Notification.js",
+      "../models/Order.js",
+      "../models/OrderItem.js",
+      "../models/Payment.js",
+      "../models/Product.js",
+      "../models/ProductVariant.js",
+      "../models/ProductViewDaily.js",
+      "../models/Promotion.js",
+      "../models/Review.js",
+      "../models/Shipment.js",
+      "../models/Subcategory.js",
+      "../models/Theme.js",
+      "../models/User.js",
+      "../models/WebsiteSettings.js",
+      "../models/Wishlist.js",
+      "../modules/media/image-optimization.service.js",
+      "../modules/checkout/delivery.service.js"
+    ]
+  },
+  {
+    "file": "backend/src/server.ts",
+    "lines": 33,
+    "bytes": 1306,
+    "tables": 0,
+    "imports": [
+      "node:http",
+      "./app.js",
+      "./config/database.js",
+      "./config/env.js",
+      "./utils/logger.js",
+      "./modules/media/media-worker.js"
+    ]
+  },
+  {
+    "file": "backend/src/test/admin-order-search.test.ts",
+    "lines": 15,
+    "bytes": 1078,
+    "tables": 0,
+    "imports": [
+      "node:assert/strict",
+      "node:test",
+      "../modules/orders/orders.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/test/auth.test.ts",
+    "lines": 90,
+    "bytes": 5770,
+    "tables": 0,
+    "imports": [
+      "node:assert/strict",
+      "node:test",
+      "jsonwebtoken",
+      "express"
+    ]
+  },
+  {
+    "file": "backend/src/test/checkout.test.ts",
+    "lines": 91,
+    "bytes": 7774,
+    "tables": 0,
+    "imports": [
+      "node:assert/strict",
+      "mongoose",
+      "node:test",
+      "../modules/checkout/checkout.validators.js",
+      "../modules/checkout/coupons.validators.js",
+      "../models/Order.js",
+      "../modules/checkout/delivery.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/test/foundation.test.ts",
+    "lines": 67,
+    "bytes": 4189,
+    "tables": 0,
+    "imports": [
+      "node:assert/strict",
+      "node:test",
+      "mongoose",
+      "supertest"
+    ]
+  },
+  {
+    "file": "backend/src/test/media-acceptance.integration.test.ts",
+    "lines": 88,
+    "bytes": 6313,
+    "tables": 0,
+    "imports": [
+      "node:assert/strict",
+      "node:test",
+      "jsonwebtoken",
+      "supertest",
+      "sharp"
+    ]
+  },
+  {
+    "file": "backend/src/test/media-optimization.test.ts",
+    "lines": 80,
+    "bytes": 4652,
+    "tables": 0,
+    "imports": [
+      "node:assert/strict",
+      "node:crypto",
+      "node:test",
+      "sharp",
+      "../modules/media/image-optimization.service.js",
+      "../modules/media/storage-provider.js"
+    ]
+  },
+  {
+    "file": "backend/src/test/product-variants.test.ts",
+    "lines": 36,
+    "bytes": 2060,
+    "tables": 0,
+    "imports": [
+      "node:assert/strict",
+      "node:test",
+      "../modules/products/products.validators.js"
+    ]
+  },
+  {
+    "file": "backend/src/types/express.d.ts",
+    "lines": 15,
+    "bytes": 352,
+    "tables": 0,
+    "imports": [
+      "../models/Business.js"
+    ]
+  },
+  {
+    "file": "backend/src/utils/api-response.ts",
+    "lines": 6,
+    "bytes": 244,
+    "tables": 0,
+    "imports": [
+      "express"
+    ]
+  },
+  {
+    "file": "backend/src/utils/app-error.ts",
+    "lines": 7,
+    "bytes": 224,
+    "tables": 0,
+    "imports": []
+  },
+  {
+    "file": "backend/src/utils/async-handler.ts",
+    "lines": 5,
+    "bytes": 302,
+    "tables": 0,
+    "imports": [
+      "express"
+    ]
+  },
+  {
+    "file": "backend/src/utils/http-url.ts",
+    "lines": 11,
+    "bytes": 538,
+    "tables": 0,
+    "imports": [
+      "zod"
+    ]
+  },
+  {
+    "file": "backend/src/utils/logger.ts",
+    "lines": 10,
+    "bytes": 411,
+    "tables": 0,
+    "imports": [
+      "pino",
+      "../config/env.js"
+    ]
+  },
+  {
+    "file": "backend/src/utils/mailer.ts",
+    "lines": 19,
+    "bytes": 750,
+    "tables": 0,
+    "imports": [
+      "nodemailer",
+      "../config/env.js",
+      "./app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/utils/secret-encryption.ts",
+    "lines": 24,
+    "bytes": 1449,
+    "tables": 0,
+    "imports": [
+      "node:crypto",
+      "../config/env.js",
+      "./app-error.js"
+    ]
+  },
+  {
+    "file": "backend/src/utils/security.ts",
+    "lines": 5,
+    "bytes": 257,
+    "tables": 0,
+    "imports": [
+      "node:crypto"
+    ]
+  }
+]
